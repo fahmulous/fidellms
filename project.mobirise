@@ -43,15 +43,17 @@
     ],
     "imageResize": true,
     "favicon": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://www.online.et",
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 16,
     "versionPublish": "4.12.4",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "google-analytics": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-176926355-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-176926355-1');\n</script>",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n"
   },
   "pages": {
     "index.html": {
